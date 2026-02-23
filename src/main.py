@@ -14,7 +14,7 @@ elbow_plot(X_scaled)
 clusters, model = train_kmeans(X_scaled, k=4)
 df['cluster'] = clusters
 
-# pca_plot(X_scaled, clusters)
+pca_plot(X_scaled, clusters)
 # 
 cluster_map = {
     0: 'High Engagement user',

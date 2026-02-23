@@ -40,9 +40,9 @@ def pca_plot(X_scaled, clusters):
 
     sns.scatterplot(data=df, x='PC1', y='PC2', hue='cluster', palette='Set2')
     plt.title('PCA of Clusters')
-        # plt.xlabel('Principal Component 1')
-        # plt.ylabel('Principal Component 2')
-        # plt.legend(title='Cluster')
+    # plt.xlabel('Principal Component 1')
+    # plt.ylabel('Principal Component 2')
+    plt.legend(title='Cluster')
     plt.grid()
     plt.show()
 
