@@ -19,4 +19,4 @@ def get_features(df):
         'account_age_days',
     ]
 
-    return features, df[features]
+    return df[features], features
